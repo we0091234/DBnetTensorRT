@@ -1139,7 +1139,7 @@ int main(int argc, char** argv) {
             string ImagePath = imageSaveFolder+"/"+fsub;
             cv::imwrite(ImagePath,src_img);
             cout<<f<<" 滴滴货运"<<endl;
-            cout<<f<<endl;
+            // cout<<f<<endl;
         }
 
         // cv::imwrite("_" + f, src_img);
